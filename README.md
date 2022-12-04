@@ -1,12 +1,12 @@
 # Britannia
 
 Britannia is a Discoursy project made for asynchronous
-scheduling and running of tasks.
+scheduling and running of jobs.
 
-## Why not use another TQ?
+## Why not use another JQ?
 
 Since Discoursy will be using etcd instead of redis,
-we found other tasks queues lacking the two things we required:
+we found other job queues lacking the two things we required:
 
 - asyncio support
 - etcd support
